@@ -1,0 +1,145 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.pc_social_share {
+    text-decoration: none;
+}
+.pc_social_share a{
+    text-decoration: none;
+    padding: 1px 1px 1px 6px;
+    color: initial;
+}
+.pc_social_share a i{
+    color: #fff;
+    font-size: 16px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.pc_social_share a .share-title{
+    text-decoration: none;
+}
+.pc_social_share span{
+    border-radius: 0;
+    background: initial;
+    background-color: initial !important;
+    margin: 0;
+    width: auto;
+    top: initial;
+}
+
+/**
+* Sidebar Social Share Buttons
+*/
+
+.pc_sidebar_wrapper{
+    position: fixed;
+    width: 3pc;
+    z-index: 100020;
+    background: none;
+    display: block!important;
+    opacity: 1!important;
+}
+.pc_sidebar_wrapper.pc_no_text .share-title{
+    display: none;
+}
+.pc_sidebar_wrapper.pc_only_icon .icon{
+    font-size: 21px;
+    padding: 6px 0px 0px 7px;
+    height: 100%;
+    display: block;
+    border-radius: 0;
+    text-align: left;
+    background-color: initial !important;
+}
+.pc_sidebar_wrapper.pc_no_text a{
+    height: 34px;
+    width: 34px;
+    padding: 5px;
+}
+.pc_sidebar_wrapper a i{
+    display: inline;
+}
+.pc_sidebar_wrapper.pc_no_text a i{
+    font-size: 25px;
+}
+
+.pc_sidebar_wrapper a {
+    text-decoration: none !important;
+    margin: 0 0px 2px 0;
+}
+.pc_sidebar_wrapper a span.icon {
+    display: inline;
+}
+
+.pc_sidebar_wrapper.left_top,  .pc_sidebar_wrapper.left_center,  .pc_sidebar_wrapper.left_bottom{
+    left: 2px;
+    float: left;
+    right: auto;
+}
+.pc_sidebar_wrapper.right_top,  .pc_sidebar_wrapper.right_center,  .pc_sidebar_wrapper.right_bottom{
+    right: 25px;
+    float: right;
+    left: auto;
+}
+.pc_sidebar_wrapper.left_top, .pc_sidebar_wrapper.right_top{
+    top: 0;
+}
+.pc_sidebar_wrapper.left_center, .pc_sidebar_wrapper.right_center{
+    top: 30%;
+}
+.pc_sidebar_wrapper.left_bottom, .pc_sidebar_wrapper.right_bottom{
+    bottom: 0;
+}
+
+
+/**
+* Popup CSS
+*/
+.pc_share_popup{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    position: fixed;
+    padding: 4px 8px;
+    border-radius: 5px;
+    z-index: 99999;
+}
+.pc_share_popup .popup_head{
+    padding: 5px 0px;
+}
+.pc_share_popup .popup_close_button{
+    position: absolute;
+    right: 2px;
+    top: -2px;
+}
+.pc_share_popup .popup_close_button i{
+    font-size: 14px;
+    cursor: pointer;
+    color: #67676F
+}
+.pc_share_popup .popup_head span{
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.pc_share_popup.left_top,  .pc_share_popup.left_center,  .pc_share_popup.left_bottom{
+    left: 2px;
+    float: left;
+    right: auto;
+}
+.pc_share_popup.right_top,  .pc_share_popup.right_center,  .pc_share_popup.right_bottom{
+    right: 25px;
+    float: right;
+    left: auto;
+}
+.pc_share_popup.left_top, .pc_share_popup.right_top{
+    top: 0;
+}
+.pc_share_popup.left_center, .pc_share_popup.right_center{
+    top: 45%;
+}
+.pc_share_popup.left_bottom, .pc_share_popup.right_bottom{
+    bottom: 3px;
+}
